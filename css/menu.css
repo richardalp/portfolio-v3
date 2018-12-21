@@ -16,6 +16,9 @@
     background: white;
     border-radius: 0% 50% 350% 0%;
     perspective: 800;
+    -webkit-box-shadow: -2px 0px 20px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: -2px 0px 20px 0px rgba(0,0,0,0.3);
+    box-shadow: -2px 0px 20px 0px rgba(0,0,0,0.3);
     transition: all 800ms cubic-bezier(.9,0,.33,1);
 }
 .navigation_icon{
