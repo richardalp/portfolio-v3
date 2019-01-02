@@ -36,3 +36,37 @@ header h1{
 .dotgreen{
     color: #00cc6a;
 }
+@media (max-width: 575.98px) { 
+    header h1 {
+    font-size: 15em;
+    }
+    .navigation-open{
+        width: 230px !important;
+        height: 100%;
+        display: block;
+        background:#fff;
+        position: fixed;
+        left: 0;
+        border-radius: 0% 2% 2% 0% !important;
+    }
+    .navigation .navigation_ul {
+        float: right;
+        margin: 200px -5px 0 0 !important;
+        opacity: 0;
+        visibility: hidden;
+        transform: rotateY(-90deg) translateX(-300px);
+        transition: all 800ms cubic-bezier(.9,0,.33,1); 
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+@media (min-width: 1200px) {
+
+}
