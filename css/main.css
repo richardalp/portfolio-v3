@@ -5,14 +5,34 @@ body{
     font-family: 'Karla', sans-serif;
     padding: 0;
     margin: 0;
-    background-image: url(../img/bg-home-dark.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
 }
 *,*:before,
 *,*:after{
     box-sizing: inherit;
     padding: 0;
     margin: 0;
+}
+@font-face {
+    font-family: 'befolk';
+    src: url(../font/befolk.otf);
+}
+.header{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../img/bg-home-dark-clean.jpg);
+}
+header h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'befolk';
+    font-size: 32em;
+    color: #fff;
+}
+.dotgreen{
+    color: #00cc6a;
 }
