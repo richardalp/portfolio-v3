@@ -36,6 +36,20 @@ header h1{
 .dotgreen{
     color: #00cc6a;
 }
+.container {
+    width: 96%;
+    max-width: 960px;
+    margin: 0 auto 5%;
+    padding: 0;
+}
+.titles{
+    font-size: 10em;
+    z-index: 10000px;
+    color: #00cc6a
+}
+.font-fancy{
+    font-family: 'befolk';
+}
 @media (max-width: 575.98px) { 
     header h1 {
     font-size: 15em;
