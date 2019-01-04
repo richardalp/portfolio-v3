@@ -39,17 +39,20 @@ header h1{
 .container {
     width: 96%;
     max-width: 960px;
-    margin: 0 auto 5%;
+    margin: 5% auto;
     padding: 0;
+    background: #e3fef0;
 }
 .titles{
-    font-size: 10em;
-    z-index: 10000px;
-    color: #00cc6a
+    font-size: 2em;
+    font-weight: 700;
 }
 .font-fancy{
     font-family: 'befolk';
 }
+
+
+
 @media (max-width: 575.98px) { 
     header h1 {
     font-size: 15em;
